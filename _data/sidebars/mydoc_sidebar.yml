@@ -3,6 +3,7 @@
 entries:
 - title: sidebar
   product: PostgreSQL Yönetici Dokümantasyonu
+  version: 1.0
   folders:
 
   - title:
@@ -249,6 +250,10 @@ entries:
 
     - title: PostgreSQL Otomatik Failover Çözümleri
       url: /mydoc_postgresql_ha.html
+      output: web, pdf
+
+    - title: PostgreSQL Patroni + Consul + PgBouncer + Consul-template ile Autofailover Yapısının Kurulumu
+      url: /mydoc_patroni-consul-pgbouncer-autofailover-yapisi-kurulumu.html
       output: web, pdf
 
     - title: Failover ve Recovery Olasılıkları
